@@ -1,1 +1,10 @@
-# CS305
+Artemis Financial is a financial services company that relies on software applications to manage sensitive client data and facilitate secure transactions. The company tasked me with identifying and addressing vulnerabilities in their existing software system. Their primary concern was ensuring the security and integrity of their application to protect both user information and business operations.
+
+Reflection and Responses
+During the vulnerability assessment, I successfully identified several key issues, including improper input validation and the use of outdated dependencies. One of the things I did well was using automated tools like OWASP Dependency-Check and manually reviewing the code for insecure practices. Coding securely is essential because it helps prevent data breaches, unauthorized access, and system failures. Strong software security contributes to a company’s overall trustworthiness and long-term success by protecting customer data and reducing risk.
+
+One challenge I faced during the assessment was prioritizing which vulnerabilities to address first. Understanding the severity and potential impact of each issue helped guide my mitigation plan. I increased the layers of security by implementing proper input sanitization, updating third-party libraries, and applying secure coding standards. In future assessments, I would continue to use OWASP tools, security linters, and follow frameworks like STRIDE or DREAD to evaluate risks more comprehensively.
+
+To ensure the application remained functional and secure after refactoring, I performed unit and integration testing. I also re-ran vulnerability scans and conducted code reviews to confirm that no new issues had been introduced. Resources like the OWASP Top Ten, official Java documentation, and secure coding guides were instrumental throughout the process.
+
+For future employers, I would highlight this project as an example of my ability to conduct a structured security assessment, apply secure coding techniques, and maintain application integrity. This artifact demonstrates not only technical knowledge but also an understanding of industry best practices in software security — a valuable skill in any software engineering role.
